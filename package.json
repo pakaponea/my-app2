@@ -1,0 +1,22 @@
+{
+  "name": "my-app2",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "export": "next build && next export && next start", 
+    "export2": "next build && next export -o outdir",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "docker": "^1.0.0",
+    "eslint": "8.26.0",
+    "eslint-config-next": "13.0.2",
+    "next": "13.0.2",
+    "node": "^19.0.1",
+    "react": "18.2.0",
+    "react-dom": "18.2.0"
+  }
+}
